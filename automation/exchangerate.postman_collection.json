@@ -1,0 +1,55 @@
+{
+	"info": {
+		"name": "exchangerate",
+		"_postman_id": "85f98ece-5051-f919-9cd4-0ded2252df20",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Latest Currency Exchange Rate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/rate/latest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rate",
+						"latest"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Exchange Rates between dates",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:8080/rate/10012019/10052019",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"rate",
+						"10012019",
+						"10052019"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
